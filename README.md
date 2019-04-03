@@ -457,7 +457,7 @@ int main()
 
 	}
 
-  std::cout << static_array << std::endl;
+	std::cout << static_array << std::endl;
 
 	return 0;
 }
