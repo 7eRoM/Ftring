@@ -57,7 +57,7 @@ int main()
 	char static_array[8];
 	strncpy_s(static_array, "ABCDEFG", (sizeof(static_array) / sizeof(char)) - 1);
 	
-  std::cout << static_array << std::endl;
+	std::cout << static_array << std::endl;
 
 	return 0;
 }
@@ -66,7 +66,7 @@ int main()
 Now, Fstring comes into play.
 In order to generate a static array of a string:
 ```console
-python "Ftring.py" --var "static_array" --val "ABCDEFG" -t "s"
+> python "Ftring.py" --var "static_array" --val "ABCDEFG" -t "s"
 ```
 
 Now it`s time to change the old assignment section to the new one like as follows:
@@ -479,7 +479,7 @@ int main()
 {
 	strncpy_s(dynamic_array, 8, "ABCDEFG", 8);
 
-  std::cout << dynamic_array << std::endl;
+	std::cout << dynamic_array << std::endl;
 	
 	return 0;
 }
@@ -488,7 +488,7 @@ int main()
 Now, Fstring comes into play.
 In order to generate a dynamic array of a string:
 ```console
-python "Ftring.py" --var "dynamic_var" --val "ABCDEFG" -t "d"
+> python "Ftring.py" --var "dynamic_var" --val "ABCDEFG" -t "d"
 ```
 
 Now it`s time to change the old assignment section to the new one like as follows:
