@@ -1,5 +1,6 @@
 # Ftring
 version 0.2.0
+
 Ftring: Flag-Based String Generator, a c++ string obfuscator.
 
 
