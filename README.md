@@ -30,7 +30,7 @@ A string consists of one/multiple char(s). A char is a byte. A byte consists of 
 
 ```console
 > Ftring.py --version
-Ftring v0.1.0
+Ftring v0.2.0
 
 
 > Ftring.py -h
